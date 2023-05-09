@@ -11,10 +11,13 @@
     "dev:tailwind": "concurrently \"tailwindcss --input input.css --output tailwind.css --no-autoprefixer --watch\" \"tailwind-rn --watch\""
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.6",
     "expo": "~48.0.15",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.7",
+    "react-native-safe-area-context": "^4.5.2",
+    "react-native-screens": "~3.20.0",
     "tailwind-rn": "^4.2.0"
   },
   "devDependencies": {
